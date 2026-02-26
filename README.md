@@ -1,5 +1,7 @@
 # Ambient Physical Safety Intelligence
 
+<img width="1536" height="1024" alt="physicalsecurity-ambient" src="https://github.com/user-attachments/assets/b9fb5a48-a075-4a5a-82af-232d4afa54d1" />
+
 Ambient Physical Safety Intelligence (APSI) is a modular, real-time sensing and decision-support platform designed to monitor environmental signals, contextual data streams, and system state in order to generate actionable safety insights. The system is built using TypeScript with a Vite + React front-end architecture and structured service abstraction layers to enable scalable integration with physical sensor networks, AI inference services, and emergency response orchestration layers.
 
 This document provides a detailed technical breakdown of architecture, modules, execution flow, and extensibility considerations.
