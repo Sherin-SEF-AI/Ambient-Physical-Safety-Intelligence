@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEGIS SENTINEL | Physical Security Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              aegis: {
+                900: '#0B1120',
+                800: '#151E32',
+                700: '#2A3B5E',
+                500: '#3B82F6',
+                accent: '#00F0FF',
+                danger: '#FF3333',
+                warning: '#FFAA00',
+                success: '#00CC88',
+              }
+            },
+            animation: {
+              'scan-line': 'scan-line 3s linear infinite',
+              'draw-path': 'draw-path 3s linear forwards',
+            },
+            keyframes: {
+              'scan-line': {
+                '0%': { top: '-10%' },
+                '100%': { top: '110%' }
+              },
+              'draw-path': {
+                'from': { strokeDashoffset: '100' },
+                'to': { strokeDashoffset: '0' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0B1120;
+        color: #E2E8F0;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2A3B5E; 
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3B82F6; 
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1);
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: rgba(0, 240, 255, 0.3);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 240, 255, 0.5);
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react/": "https://esm.sh/react@19.0.0/",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/": "https://esm.sh/react-dom@19.0.0/",
+    "react/jsx-runtime": "https://esm.sh/react@19.0.0/jsx-runtime",
+    "lucide-react": "https://esm.sh/lucide-react@0.471.0?external=react",
+    "recharts": "https://esm.sh/recharts@2.15.0?external=react",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>

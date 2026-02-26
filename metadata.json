@@ -1,0 +1,9 @@
+{
+  "name": "ambient AI Feb11 New version 1.1",
+  "description": "An advanced Agentic Physical Security Intelligence Platform powered by Gemini 3 Pro, transforming security operations from reactive response to proactive threat prevention.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
