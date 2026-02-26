@@ -6,6 +6,9 @@ Ambient Physical Safety Intelligence (APSI) is a modular, real-time sensing and 
 
 This document provides a detailed technical breakdown of architecture, modules, execution flow, and extensibility considerations.
 
+<img width="3871" height="9036" alt="ambientsafety-intelligence1" src="https://github.com/user-attachments/assets/74b8edda-8112-45f6-976e-25ddbad0ef7f" />
+
+
 ---
 
 # 1. System Objectives
