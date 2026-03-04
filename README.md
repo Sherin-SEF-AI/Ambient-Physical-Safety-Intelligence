@@ -24,6 +24,8 @@ APSI is designed to:
 
 The architecture prioritizes modularity, deterministic state handling, and service abstraction to ensure production-grade extensibility.
 
+https://youtu.be/zC4TjNx4xrY
+
 ---
 
 # 2. High-Level Architecture
@@ -41,6 +43,7 @@ Each layer has a defined responsibility:
 • External Systems: Sensors, inference engines, safety APIs
 
 The design avoids tight coupling between UI and external APIs by isolating side effects in services and hooks.
+![aegis-sentinel-PhysicalOps (1)](https://github.com/user-attachments/assets/2e5ba854-e537-42d3-bb5c-7251c24f3680)
 
 ---
 
@@ -49,6 +52,7 @@ The design avoids tight coupling between UI and external APIs by isolating side 
 ## 3.1 components/
 
 This directory contains reusable UI elements and structured interface components.
+![audio-forensics](https://github.com/user-attachments/assets/c37f0c4e-8dd3-4f5b-b1c0-be2afc491b25)
 
 Typical responsibilities include:
 
@@ -234,6 +238,8 @@ Recommended architecture:
 Keep scoring stateless and pure whenever possible.
 
 ---
+
+![sematicsearch](https://github.com/user-attachments/assets/1e9e937f-df9d-429c-a5cd-bcf7f76e80a8)
 
 # 6. Environment Configuration
 
